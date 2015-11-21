@@ -1,0 +1,97 @@
+html, body, div, span {
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.7em;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 62px;
+	color: #363636;
+	line-height: 63px;
+	margin: 0;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 38px;
+	color: #252525;
+	line-height: 44px;
+	margin: 12px 0;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 22px;
+	color: #454545;
+	line-height: 25px;
+	margin: 40px 0 12px 0;
+}
+
+p {
+	font-weight: 300;
+	font-size: 22px;
+	color: #989898;
+	line-height: 25px;
+	margin: 40px 0 0 0;
+}
+
+.container {
+	width: 68%;
+	margin: 0px auto;
+	box-sizing:border-box;
+}
+
+#main{
+	height:60%;
+	margin-top:12%;
+}
+
+#left-pane {
+	float:left;
+	margin: 0 8% 0 0;
+}
+
+#right-pane {
+	overflow: hidden;
+}
+
+#left-pane table {
+	margin: 24px 0 0 0;
+	padding: 0;
+	width: 100%;
+}
+
+#left-pane table img {
+	vertical-align: middle;
+	padding: 2px 6px;
+}
+
+#left-pane a {
+	font-size: 14px;
+	color: #A4A4A4;
+}
+
+.languages {
+	line-height: 32px;
+	margin: 0;
+}
+
+.languages span {
+	border: 1px solid #2979FF;
+	background-color: #2979FF;
+	border-radius: 2px;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	padding: 2px 12px;
+	margin: 6px;
+	line-height: 24px;
+}
